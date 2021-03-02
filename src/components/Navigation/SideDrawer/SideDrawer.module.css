@@ -1,0 +1,46 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 200;
+    box-sizing: border-box;
+    padding: 32px 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.LogoIcon {
+    width: 7rem;
+    height: 7rem;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.LogoIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+        border: 1px solid green;
+    }
+
+    
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close  {
+    transform: translateX(-100%);
+}
+

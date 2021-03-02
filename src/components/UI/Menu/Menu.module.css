@@ -1,0 +1,11 @@
+.Menu {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.Menu i {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}

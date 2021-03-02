@@ -1,0 +1,101 @@
+.breadTop { 
+    width: 100%;
+    height: 5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgb(238, 165, 70);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.seeds1, .seeds2 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.breadTop span  {
+   width: 2rem;
+   height: 0.7rem;
+   border-radius: 100%;
+   background-color: #fff;
+   margin: 0 1rem;
+}
+
+.seed1 {
+    position: absolute;
+    top: 1.5rem;
+    left: 2.5rem;
+    transform: rotate(45deg);
+    border-bottom: 0.2rem solid rgb(214, 214, 214);
+    border-right: 0.1rem solid rgb(214, 214, 214);
+}
+
+.seed2 {
+    position: absolute;
+    top: 1rem;
+    left: 7.5rem;
+    /* transform: rotate(60deg); */
+    border-bottom: 0.2rem solid rgb(214, 214, 214);
+    border-right: 0.1rem solid rgb(214, 214, 214);
+}
+
+.seed3 {
+    position: absolute;
+    top: 2rem;
+    right: 3.5rem;
+    transform: rotate(120deg);
+    border-bottom: 0.2rem solid rgb(214, 214, 214);
+    border-right: 0.1rem solid rgb(214, 214, 214);
+}
+
+.seed4 {
+    position: absolute;
+    top: 1rem;
+    right: 9.5rem;
+    transform: rotate(90deg);
+    border-bottom: 0.2rem solid rgb(214, 214, 214);
+    border-right: 0.1rem solid rgb(214, 214, 214);
+}
+
+.cheese {
+    width: 110%;
+    height: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(187, 187, 187);
+    margin: 1rem 0 1rem -1rem;
+   
+}
+
+
+.salad {
+    width: 110%;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(75, 177, 83);
+    margin: 1rem 0 1rem -1.5rem;
+}
+
+.aluTikia, .bacon {
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(150, 98, 56);
+    margin: 1rem 0;
+}
+
+
+
+.breadBottom {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(238, 165, 70);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+
